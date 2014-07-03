@@ -1,0 +1,106 @@
+html {
+  font-family: Avenir, Helvetica;
+}
+body {
+  padding-top: 65px;
+  margin: 0 auto;
+  max-width: 4100px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(/images/logo.png);
+  background-color: white;
+  background-position: 10px 10px;
+  height: 55px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+  header a, section.hero a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  box-shadow: 0 2px rgb(125,125,125);
+}
+header a {
+  position: absolute;
+  top: 30%;
+  right: 30px;
+  background-color: rgb(25,200,175);
+}
+section.hero, section.dingus, section.interior {
+	position: relative;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
+section.hero {
+  background-image: url(/images/hero.jpg);
+  background-position: center;
+}
+section.hero a {
+	position: absolute;
+  background: lightblue;
+  width: 90%;
+  left: 5%;
+  bottom: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+section.dingus {
+	background-image: url(/images/dingus.jpg);
+	background-position: center;
+}
+section.dingus h2, section.dingus p {
+	text-align: center;
+}
+section.dingus p {
+	position: absolute;
+	bottom: 0;
+}
+section.list ul {
+	list-style-type: none;
+}
+section.list ul li {
+	border-top: 1px solid rgb(200,200,200);
+	padding: 10px 0;
+	vertical-align: middle;
+}
+section.list ul li span {
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	background-image: url(/images/sprites.png);
+}
+section.list ul li.gas span {
+	background-position: 0 -48px;
+}
+section.list ul li.engine span {
+	background-position: 0 -24px;
+}
+section.list ul li.help span {
+	background-position: 0 -73px;
+}
+section.interior {
+	background-image: url(/images/interior.jpg);
+	background-position: center;
+	height: 400px;
+}
+section.interior div {
+	position: absolute;
+	bottom: 0;
+}
+section.interior h2 {
+	color: white;
+	font-size: 85%;
+}
+section.interior p {
+	color: white;
+	font-size: 65%;
+}
